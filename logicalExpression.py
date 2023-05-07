@@ -6,10 +6,10 @@ i = not not j
 print(i)
 print(j)
 #logic vs bit operations
-i = 15
-j= 22
-logic = j and i
-print("logic: ",logic)
+# i = 15
+# j= 22
+# logic = j and i
+# print("logic: ",logic) = True
 #bitwise
 bit = i & j
 print("bit: ",bit)
