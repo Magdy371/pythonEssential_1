@@ -10,5 +10,6 @@ i = 15
 j= 22
 logic = j and i
 print("logic: ",logic)
+#bitwise
 bit = i & j
 print("bit: ",bit)
