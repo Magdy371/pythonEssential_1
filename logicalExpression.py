@@ -8,7 +8,7 @@ print(j)
 #logic vs bit operations
 i = 15
 j= 22
-logic = i and j
+logic = j and i
 print("logic: ",logic)
 bit = i & j
 print("bit: ",bit)
