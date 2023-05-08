@@ -4,8 +4,8 @@ var_left = var << 2
 print("var_right: ",var_right)
 print("var_left: ",var_left) 
 print("var: ",var)
-x = 4
-y = 1
+x = 4 #(0100)
+y = 1 #(0001)
  
 a = x & y
 b = x | y
