@@ -44,3 +44,6 @@ for i in range(len(numbers)):
     list2.append(numbers[len(numbers)-1-i])
 print("New list's2 content:", list2)  # Printing current list content.
 
+# useing the reverse() method to swap the elements in the list
+#numbers.reverse()
+
