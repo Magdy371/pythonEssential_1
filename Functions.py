@@ -7,6 +7,11 @@ def message_2(number, name):
 def introduction(name, age):
     print("Hello my name is {} and I am {} years old".format(name, age))
 
+#default parameters
+def introduction_2(name = "magdy", age=10):
+    print("Hello my name is {} and I am {} years old".format(name, age))
+
 message(10)
 message_2(10, "John")
 introduction(age=10, name="John")
+introduction_2()
